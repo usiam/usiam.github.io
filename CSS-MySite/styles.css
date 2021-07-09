@@ -3,12 +3,51 @@ body{
   text-align: center;
   font-family: 'Merriweather', serif;
   background-color: white;
+
 }
+
+
+/* navbar */
+
+.topnav {
+  background-color:#EAF6F6;
+  overflow: hidden;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #11999E;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  color:#66BFBF;
+}
+
+/* Add a color to the active/current link */
+
 
 .top-container{
   position: relative;
   padding-top: 100px;
   background-color: #EAF6F6;
+}
+
+.resume{
+  position: absolute;
+  right:60px;
+  top:3px;
+  font-family: 'Merriweather', serif;
+  font-size: 1.5rem;
+
 }
 
 .top-cloud{
