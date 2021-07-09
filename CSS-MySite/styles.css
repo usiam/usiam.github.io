@@ -6,7 +6,6 @@ body{
 
 }
 
-
 /* navbar */
 
 .topnav {
@@ -31,9 +30,6 @@ body{
 .topnav a:hover {
   color:#66BFBF;
 }
-
-/* Add a color to the active/current link */
-
 
 .top-container{
   position: relative;
