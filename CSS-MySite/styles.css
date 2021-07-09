@@ -6,6 +6,7 @@ body{
 
 }
 
+
 /* navbar */
 
 .topnav {
@@ -31,20 +32,15 @@ body{
   color:#66BFBF;
 }
 
+/* Add a color to the active/current link */
+
+
 .top-container{
   position: relative;
   padding-top: 100px;
   background-color: #EAF6F6;
 }
 
-.resume{
-  position: absolute;
-  right:60px;
-  top:3px;
-  font-family: 'Merriweather', serif;
-  font-size: 1.5rem;
-
-}
 
 .top-cloud{
   position: absolute;
@@ -103,7 +99,7 @@ clear: both;
 }
 
 .middle-container{
-    margin: 100px 0;
+    margin: 120px 0;
 }
 
 .intro{
