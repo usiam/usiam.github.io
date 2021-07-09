@@ -13,6 +13,14 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 </head>
 <body>
+
+  <div class="topnav">
+    <a class="active" href="pdf/SWE_RESUME_SUMMER_2022.pdf" target="_blank">Resume</a>
+    <a href="#my-skills">Skills</a>
+    <a href="#contact-me">Contact</a>
+    <a href="#about">About</a>
+  </div>
+
   <div class="top-container">
     <img src="images/cloud.png" class="top-cloud" alt="cloud">
     <h1 class="">I'm Tahamid</h1>
@@ -21,9 +29,9 @@
     <img src="images/mountain.png" alt="mountain">
   </div>
   <div class="middle-container">
-    <div class="profile">
+    <div class="profile" id="about">
       <img src="images/myImage.png" alt="myImage" class='profile-pic'>
-      <h2>Hello!</h2>
+      <h2 >Hello!</h2>
       <p class='intro'>I'm a rising Junior at the University of Rochester.
         My major is Physics and Astronomy,
         minors are Mathematics and Computer Science
@@ -32,7 +40,7 @@
       <hr>
       <!--need to fix from here on-->
       <div class="skills-and-hobbies">
-        <h2>Skills</h2>
+        <h2 id="my-skills">Skills</h2>
         <div class="skill-row">
           <img class="skill-img" src="images/TechSkills.png" alt="tech skill image">
           <p>
@@ -61,7 +69,7 @@
         </div>
       </div>
       <hr>
-      <div class="contact-me">
+      <div class="contact-me" id="contact-me">
         <h2>Get In Touch</h2>
         <h3>I am actively seeking internships in Software Engineering/<br>Data Science for Summer '22</h3>
         <p>If you have an opportunity for me, please take a look at my <a href="pdf/SWE_RESUME_SUMMER_2022.pdf">resume</a> and reach out!</p>
